@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <title>E-Sport</title>
+  </head>
+  <body>
+    <header>
+      <a href="../index.html">
+        E-Sport
+        <i class="fas fa-table-tennis"></i>
+      </a>
+      <i id="menu-btn" class="fas fa-bars" onclick="Show()"></i>
+    </header>
+    <div class="page-container">
+      <aside id="side-menu">
+        <a href="../index.html">Home</a>
+        <a href="evenimente.html">Evenimente</a>
+        <a href="contacte.html">Contacte</a>
+      </aside>
+      <main>
+        <h2 class="title">Contacte</h2>
+
+        <div class="row">
+          <div class="col-50">
+            <h3>Contacteaza-ne daca:</h3>
+
+            <ul class="contact-list">
+              <li>Doresti sa adaugi un eveniment</li>
+              <li>Cauti un loc de voluntariat</li>
+              <li>Doresti sa gasesti un loc de spot</li>
+              <li>Ai sugestii sau propuneri</li>
+            </ul>
+          </div>
+
+          <div class="col-50">
+            <h3>Date de contact</h3>
+
+            <ul class="contact-date">
+              <li><b>Adresa:</b>Gherla</li>
+              <li><b>Telefon:</b>0770488004</li>
+              <li><b>Ore de munca:</b>06-14</li>
+              <li><b>Gmail</b>Covacidey83@gmail.com</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-50">
+            <iframe class="map" src="
+              https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10878.852324804371!2d23.886814351700863!3d47.026236665277594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4749bda5850134e5%3A0x56419de89cf42509!2sStrada%20Apei%2020%2C%20Gherla%20405300!5e0!3m2!1sde!2sro!4v1702105005187!5m2!1sde!2sro"
+              width="600"
+              height="450"
+              style="border: 0;"
+              
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+          <div class="col-50">
+            <div class="contact-form">
+              <form>
+                <h3 class="centered">Lasa un mesaj</h3>
+                <input type="text" placeholder="Nume" required/>
+                <input type="email" placeholder="Email" required/>
+                <textarea rows="3" placeholder="Mesaj" required></textarea>
+                <input type="submit" value="Transmite" />
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
